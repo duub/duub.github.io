@@ -5,14 +5,23 @@ exclude_from_nav: true
 ---
 
 <div class="home">
-
+  <h1 class="page-heading">categories</h1>
+  <ul class="cloudtag">
+  {% for category in site.categories %}
+      <li style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
+          <a href="/{{ category | first | slugize }}/">
+              {{ category | first }}
+          </a>
+      </li>
+  {% endfor %}
+  </ul>
   <h1 class="page-heading">Posts</h1>
 
   <!-- This loops through the paginated posts -->
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
