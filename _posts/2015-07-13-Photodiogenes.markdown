@@ -5,6 +5,10 @@ date:   2015-07-08 02:40:42
 categories: Photodiogenes
 ---
 
-Primer Photodiogenes
+Primera versió del logo:
 
-![imatge](/assets/duub.png)
+![duub](/assets/duub.png)
+
+Segona versió del logo:
+
+ ![duub1.1](/assets/duub1.1.png)

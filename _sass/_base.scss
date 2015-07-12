@@ -41,7 +41,7 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-    max-width: 100%;
+    max-width: 400px;
     vertical-align: middle;
 }
 
@@ -93,11 +93,11 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $brand-color2;
     }
 
     &:hover {
-        color: $text-color;
+        color: darken($brand-color, 20%);
         text-decoration: underline;
     }
 }
@@ -130,7 +130,7 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: white;
 }
 
 code {
