@@ -34,6 +34,3 @@ defaults:
       path: ""
     values:
       author: "duub qnnp"
-
-collections:
-    - cheatsheet

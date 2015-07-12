@@ -6,7 +6,7 @@ layout: default
     {% assign page-title = page.title | downcase%}
     {% for post in site.categories[page-title] %}
         <li>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time>
+            <a class="post-link" href="{{ post.url }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time>
             {{post.excerpt}}
         </li>
     {% endfor %}
