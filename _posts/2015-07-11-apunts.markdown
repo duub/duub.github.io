@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Apunts!"
+date:   2015-07-11 03:21:42
+tags: jekyll 1010
+categories: Apunts
+---
+
+Aquí compartiré la llista de trucs que m'han estat útils a VIm.
+
+Substituïr textA per textB en un document:
+
+```
+:%s/textA/textB/g
+```

@@ -14,6 +14,8 @@ permalink:     pretty
 paginate: 1
 paginate_path: "/page:num"
 
+exclude: ["_plugins/category.rb"]
+
 timezone: "Europe/Madrid"
 
 twitter_username: "duubqnnp"

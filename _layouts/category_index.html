@@ -1,14 +1,13 @@
 ---
 layout: default
 ---
-
-<h1 class="category-title">Artícles sobre {{ page.category }}</h1>
-
-        <ul class="category-list">
-            {% for post in site.categories[page.category] %}
-                    <li>
-                      <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-                      <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2> <h3>({{post.author}})</h3>
-                    </li>
-          {% endfor %}
-        </ul>
+<h1 class="category-title">{{ page.title }}</h1> <h2 class="category-description">({{ page.description }})</h2>
+<ul class="category-list">
+    {% assign page-title = page.title | downcase%}
+    {% for post in site.categories[page-title] %}
+        <li>
+            <time>{{ post.date | date: "%Y-%m-%d" }}</time> - <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            {{post.excerpt}}
+        </li>
+    {% endfor %}
+</ul>
