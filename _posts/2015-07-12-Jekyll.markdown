@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Apunts de Jekyll"
+date:   2015-07-12 14:09:42
+categories: apunts
+tags: jekyll future
+---
+Alguns detalls que m'he trobat poc documentats de jekyll i que m'han fet perdre alguna estona.
+
+Categories
+==========
+
+M'he trobat que quan intentava fer les pàgines especials de categories no aconseguia trobar les categories, no se com he trobat que havia de passar a minúscules i llavors ja ha funcionat.
+
+##### (En aquest cas concret el title de la pàgina equival a la categoria, doncs és el layout de cada categoria)
+
+{% highlight html linenos=table %}
+    {% raw %}
+        {% assign page-title = page.title | downcase%}
+{% for post in site.categories[page-title] %}
+    <li>
+        <time>{{ post.date | date: "%Y-%m-%d" }}</time> -
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {{post.excerpt}}
+    </li>
+{% endfor %}
+    {% endraw %}
+{% endhighlight %}

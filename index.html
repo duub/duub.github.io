@@ -5,12 +5,12 @@ exclude_from_nav: true
 ---
 
 <div class="home">
-  <h1 class="page-heading">categories</h1>
+  <h1 class="page-heading">Núvol de tags</h1>
   <ul class="cloudtag">
-  {% for category in site.categories %}
-      <li style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
-          <a href="/{{ category | first | slugize }}/">
-              {{ category | first }}
+  {% for tag in site.tags %}
+      <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
+          <a href="/{{ tag | first | slugize }}/">
+              {{ tag | first }}
           </a>
       </li>
   {% endfor %}
@@ -21,11 +21,8 @@ exclude_from_nav: true
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2> <h3>({{post.author}})</h3>
+        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <time>{{ post.date | date: "%Y-%m-%d" }}</time>
       </li>
     {% endfor %}
   </ul>
