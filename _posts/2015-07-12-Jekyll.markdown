@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Apunts de Jekyll"
-date:   2015-07-12 14:09:42
 categories: apunts
-tags: jekyll future
+tags: jekyll
 ---
 Alguns detalls que m'he trobat poc documentats de jekyll i que m'han fet perdre alguna estona.
 
@@ -11,8 +10,6 @@ Categories
 ==========
 
 M'he trobat que quan intentava fer les pàgines especials de categories no aconseguia trobar les categories, no se com he trobat que havia de passar a minúscules i llavors ja ha funcionat.
-
-##### (En aquest cas concret el title de la pàgina equival a la categoria, doncs és el layout de cada categoria)
 
 {% highlight html linenos=table %}
     {% raw %}
@@ -26,3 +23,5 @@ M'he trobat que quan intentava fer les pàgines especials de categories no acons
 {% endfor %}
     {% endraw %}
 {% endhighlight %}
+
+> (En aquest cas concret el title de la pàgina equival a la categoria, doncs és el layout per les categories)

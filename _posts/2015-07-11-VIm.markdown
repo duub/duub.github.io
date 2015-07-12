@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Apunts de VIm"
+tags: vim
+categories: Apunts
+---
+
+Trucs que m'han estat útils a VIm.
+
+Substituïr 'textA' per 'textB' en un document:
+
+```
+:%s/textA/textB/g
+```
+
+cal tenir cura dels caràcters especials com per exemple: * o ?

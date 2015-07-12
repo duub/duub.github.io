@@ -1,0 +1,13 @@
+---
+layout: post
+categories: sentències
+---
+Una definició de què és el temps
+
+> [eo] <span lang="eo">Tempo... estas kio subtenas ĉio okazas samtempe.</span>
+
+> [ca] <span lang="ca">Temps... és el que fa que tot no succeixï a la vegada.</span>
+
+> [en] <span lang="en">Time... is what keeps everything from happening at once.</span>
+
+Ray Cummings
