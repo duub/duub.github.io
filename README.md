@@ -1,8 +1,6 @@
 # duub.github.io
-my homepage
+El meu blog per jugar i aprendre [jekyll](http://jekyllrb.com/) i tot el panorama que l'envolta.
 
-playing with jekyll
+Intentarem de que no posar pluguins per mantenir la comoditat del desplegament automàtic a github!
 
-I've added a plugin... then it has stopped to deploy on github.io
-
-Com que vull unes poques categories fixes anem a veure si es pot evitar utilitzar el pluguin de categories
+Així que per ara les categories es creen a mà.
