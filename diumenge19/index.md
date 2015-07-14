@@ -2,6 +2,7 @@
 layout: page
 title:  "Dinaret, piscina i perreo el diumenge!"
 exclude_from_nav: true
+noindex: true
 ---
 
 Aquí us passo els últims detalls! Per ara serem unes 14 persones!
