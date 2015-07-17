@@ -24,7 +24,6 @@ body {
 }
 
 
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -36,7 +35,6 @@ ul, ol, dl, figure,
 }
 
 
-
 /**
  * Images
  */
@@ -44,7 +42,6 @@ img {
     max-width: 400px;
     vertical-align: middle;
 }
-
 
 
 /**
@@ -57,7 +54,6 @@ figure > img {
 figcaption {
     font-size: $small-font-size;
 }
-
 
 
 /**
@@ -75,7 +71,6 @@ li {
 }
 
 
-
 /**
  * Headings
  */
@@ -84,24 +79,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 /**
  * Links
  */
 a {
-    color: $brand-color;
+    color: black;
+    border-bottom: medium solid $brand-color;
+    font-weight: bold;
     text-decoration: none;
 
     &:visited {
-        color: $brand-color2;
+        border-color: $grey-color-light;
+        text-decoration: none;
     }
 
     &:hover {
-        color: darken($brand-color, 20%);
-        text-decoration: underline;
+        border-color: $brand-color2;
+        text-decoration: none;
     }
 }
-
 
 
 /**
