@@ -5,7 +5,6 @@ exclude_from_nav: true
 ---
 
 <div class="home">
-
   <!-- This loops through the paginated posts -->
   <ul class="post-list">
     {% for post in paginator.posts %}
@@ -16,7 +15,6 @@ exclude_from_nav: true
       </li>
     {% endfor %}
   </ul>
-
   <!-- Pagination links -->
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
@@ -25,7 +23,6 @@ exclude_from_nav: true
     {% else %}
       <span>&laquo; Prev</span>
     {% endif %}
-
     {% for page in (1..paginator.total_pages) %}
       {% if page == paginator.page %}
         <em>{{ page }}</em>
@@ -35,7 +32,6 @@ exclude_from_nav: true
         <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
       {% endif %}
     {% endfor %}
-
     {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
     {% else %}
