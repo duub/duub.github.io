@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: Receptes
+title: Ensaladilla de carn picada
 ---
 
 Aquest plat té una barreja de gustos intensos que combinen d'allò més bé.
