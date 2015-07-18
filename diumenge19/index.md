@@ -9,7 +9,7 @@ Aquí us passo els últims detalls! Per ara serem unes 14 persones!
 
 Horari:
 -------
-Qui vulgui aprofitar el perro i piscina a partir de les 11 ja pot passar-se.
+Qui vulgui aprofitar el dia i venir a fer el gos a la piscina a partir de les 11 ja pot passar-se.
 Qui vulgui apurar, sobre dos quarts de tres (14:30h) crec que és una bona hora per dinar.
 
 Adreça:
