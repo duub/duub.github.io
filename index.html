@@ -11,7 +11,7 @@ exclude_from_nav: true
       <li>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <time>{{ post.date | date: "%Y-%m-%d" }}</time>
-        {{ post.excerpt }}
+        <p>{{ post.excerpt | strip_html }}</p>
       </li>
     {% endfor %}
   </ul>
