@@ -262,14 +262,11 @@ time:after {
 
      }
  }
-/**
- * Núvol de tags
- */
 
-.cloudtag {
-    list-style-type: none;
-}
+ /**
+  * Images
+  */
 
-.cloudtag li {
-    display: inline;
-}
+  .img-center {
+      text-align: center;
+  }
