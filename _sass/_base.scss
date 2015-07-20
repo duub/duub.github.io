@@ -23,6 +23,10 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+em {
+    color: $grey-color;
+}
+
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -145,8 +149,6 @@ pre {
     }
 }
 
-
-
 /**
  * Wrapper
  */
@@ -167,8 +169,6 @@ pre {
     }
 }
 
-
-
 /**
  * Clearfix
  */
@@ -180,8 +180,6 @@ pre {
         clear: both;
     }
 }
-
-
 
 /**
  * Icons

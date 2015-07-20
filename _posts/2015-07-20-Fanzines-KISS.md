@@ -106,9 +106,9 @@ i llavors si tot va bé s'hauria d'obrir una nova finestra amb l'aplicació:
 Per a aconseguir un document on les pàgines estiguin imposades per a fer el llibret cal tenir en compte els següents punts:
 
 * Primer de tot carregar el fitxer: *File -> Open input PDF*
-* A "*Printer type*" si no tens impressora duplex (imprimeix a doble cara) i indiques *Single sided* et genera dos pdfs perquè s'imprimeixi el primer, es tornen a posar els fulls a la impressora i s'imprimeix el segon document. Cal tenir cura en quina posició cal tornar a posar els fulls.
+* A "*Printer type*" si no tens impressora duplex (que imprimeix a doble cara) cal indicar *Single sided* llavors genera dos pdfs per a que s'imprimeixi el primer, tornar a posar els fulls a la impressora i imprimir el segon document sobre els fulls impressos.
 * L'opció "*Alternate Page Rotation*" ajuda a girar les pàgines per a que a l'imprimir una cara no quedi al revés de l'altra. Aquesta opció jo la desmarco i després a l'imprimir indico que giri pel costat curt, així en el document en digital les  pàgines tenen totes la mateixa orientació.
 * A "*Signature format*" cal triar Booklet, doncs és el tipus de fanzine que es doblega la fulla per la meitat.
 * La resta d'opcions es deixen per defecte.
 
-Llavors ja es pot apretar el botó "*Generate Document*" i a la carpeta on hi tenim el Bookbinder hi trobarem una nova carpeta amb el pdf imposat.
+Llavors ja es pot apretar el botó "*Generate Document*" i a la carpeta on hi tenim el Bookbinder hi trobarem una nova carpeta amb el pdf imposat preparat per a ser imprés!
