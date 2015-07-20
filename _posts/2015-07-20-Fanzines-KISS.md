@@ -24,13 +24,17 @@ Llavors amb el PDF-Shuffler i la pàginaenblanc.pdf, es van afegint al document 
 Imposició del document
 ----------------------
 
-Per aconseguir el document imposat tenim diverses opcions:
+Per aconseguir el document imposat s'explicaran dues opcions:
 
-* A mà sense fer més modificacions al document.
-* Amb el programa [bookbinder](http://www.quantumelephant.co.uk/bookbinder/bookbinder.html), generant un nou document imposat.
+* Manualment.
+    * Per comprendre millor què cal fer, per això és més elaborat.
+* Amb el programa [bookbinder](http://www.quantumelephant.co.uk/bookbinder/bookbinder.html).
+    * Molt ràpid i fàcil.
 
-Calcular l'ordre de les pàgines
--------------------------------
+Manualment
+----------
+
+### Calcular l'ordre de les pàgines
 
 Aquesta imatge mostra com quedaria la imposició d'un document de 8 pàgines:
 
@@ -61,8 +65,7 @@ Per saber l'ordre d'un document amb qualsevol nombre de pàgines (**sempre múlt
 
 Per automatitzar el procés de treure l'ordre de les pàgines tinc un senzill programa que introduïnt el nombre de pàgines del document et diu l'ordre de les pàgines, el podeu trobar al [repositori imposition](https://github.com/duub/Imposition).
 
-Ordenar les pàgines per imprimir
---------------------------------
+### Ordenar les pàgines per imprimir
 
 Amb el PDF-Shuffler es pot ordenar manualment el document, movent les pàgines una a una i així tenim el document preparat i només cal configurar a l'imprimir que el volem imprimir a **doble cara** i que ha de **girar la fulla pel costat curt**.
 
@@ -80,3 +83,32 @@ Imprimint d'aquesta manera cal configurar els següents paràmetres:
 * Ordenat de pàgines d'esquerra a dreta.
 
 Si ho vols imprimir amb una impresora que no permet la impressió a doble cara cal mirar com es poden imprimir totes les fulles d'una cara i després tornant a posar les fulles imprimir la segona cara.
+
+Bookbinder
+----------
+
+### Baixar i executar programa
+
+Al web de l'autor es troba l'enllaç per descarregar l'aplicació, es descomprimeix a la carpeta on es vulgui i si fent doble click sobre Bookbinder.jar cal executar des del terminal la següent comanda;
+
+{% highlight sh %}
+cd /ruta/al/directori/
+java -jar bookbinder.jar
+{% endhighlight %}
+
+i llavors si tot va bé s'hauria d'obrir una nova finestra amb l'aplicació:
+
+{:.img-center}
+![Bookbinder](/assets/FanzinesKISS-05.png)
+
+### Utilització del programa
+
+Per a aconseguir un document on les pàgines estiguin imposades per a fer el llibret cal tenir en compte els següents punts:
+
+* Primer de tot carregar el fitxer: *File -> Open input PDF*
+* A "*Printer type*" si no tens impressora duplex (imprimeix a doble cara) i indiques *Single sided* et genera dos pdfs perquè s'imprimeixi el primer, es tornen a posar els fulls a la impressora i s'imprimeix el segon document. Cal tenir cura en quina posició cal tornar a posar els fulls.
+* L'opció "*Alternate Page Rotation*" ajuda a girar les pàgines per a que a l'imprimir una cara no quedi al revés de l'altra. Aquesta opció jo la desmarco i després a l'imprimir indico que giri pel costat curt, així en el document en digital les  pàgines tenen totes la mateixa orientació.
+* A "*Signature format*" cal triar Booklet, doncs és el tipus de fanzine que es doblega la fulla per la meitat.
+* La resta d'opcions es deixen per defecte.
+
+Llavors ja es pot apretar el botó "*Generate Document*" i a la carpeta on hi tenim el Bookbinder hi trobarem una nova carpeta amb el pdf imposat.
