@@ -63,7 +63,14 @@ Per saber l'ordre d'un document amb qualsevol nombre de pàgines (**sempre múlt
 {: .img-center}
 16,1,2,15,14,3,4,13,12,5,6,11,10,7,8,9
 
-Per automatitzar el procés de treure l'ordre de les pàgines tinc un senzill programa que introduïnt el nombre de pàgines del document et diu l'ordre de les pàgines, el podeu trobar al [repositori imposition](https://github.com/duub/Imposition).
+Per automatitzar el procés de treure l'ordre de les pàgines he fet un senzill programa que introduïnt el nombre de pàgines del document et diu l'ordre de les pàgines, el podeu trobar al [repositori imposition](https://github.com/duub/Imposition).
+
+S'executa a través del terminal:
+
+{% highlight sh %}
+cd /ruta/al/directori/
+python imposition.py
+{% endhighlight %}
 
 ### Ordenar les pàgines per imprimir
 
