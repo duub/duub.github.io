@@ -10,7 +10,6 @@
         </svg>
       </a>
       <div class="trigger">
-
         {% assign sorted_pages = (site.pages | sort: 'title') %}
         {% for page in sorted_pages %}{% unless page.exclude_from_nav %}{% if page.title %}
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
