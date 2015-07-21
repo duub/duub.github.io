@@ -2,12 +2,12 @@
 layout: default
 ---
 <h1 class="category-title">{{ page.title }}</h1> <h2 class="category-description">({{ page.description }})</h2>
-<ul class="category-list">
+<ul class="post-list">
     {% assign page-title = page.title | downcase%}
     {% for post in site.categories[page-title] %}
         <li>
             <a class="post-link" href="{{ post.url }}">{{ post.title }}</a><time>{{ post.date | date: "%Y-%m-%d" }}</time>
-            {{post.excerpt}}
+            <p>{{post.excerpt | strip_html}}</p>
         </li>
     {% endfor %}
 </ul>
