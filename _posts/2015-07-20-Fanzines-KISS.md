@@ -4,7 +4,7 @@ categories: Apunts
 title: Fanzines KISS (Imposició de pàgines)
 ---
 
-Aquest és el primer pas per a imprimir fanzines KISS (Keep It Simple Stupid).
+Aquest és el primer pas per a imprimir fanzines KISS ([Keep It Simple Stupid](https://ca.wikipedia.org/wiki/Principi_KISS)).
 
 El format del fanzine resultant és un llibret de pàgines doblegades per la meitat. Si el document té més de 40 pàgines (10 fulls), caldria fer grups de quaderns per després acabar-los unint en un sol volum, això no s'explica en aquest artícle.
 
