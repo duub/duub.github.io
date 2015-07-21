@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: Apunts
-title: Fanzines KISS (Imposició de pàgines)
+title: Fanzines (Imposició de pàgines)
 ---
 
 Aquest és el primer pas per a imprimir fanzines KISS ([Keep It Simple Stupid](https://ca.wikipedia.org/wiki/Principi_KISS)).
