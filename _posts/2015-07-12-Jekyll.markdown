@@ -11,17 +11,31 @@ Categories
 
 M'he trobat que quan intentava fer les pàgines especials de categories no aconseguia trobar les categories, no se com he trobat que havia de passar a minúscules i llavors ja ha funcionat.
 
-{% highlight html linenos=table %}
+{% highlight liquid  linenos=table %}
     {% raw %}
-        {% assign page-title = page.title | downcase%}
+{% assign page-title = page.title | downcase %}
 {% for post in site.categories[page-title] %}
     <li>
         <time>{{ post.date | date: "%Y-%m-%d" }}</time> -
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        {{post.excerpt}}
+        <a href="{{ post.url | prepend: site.baseurl }}" >{{ post.title }}</a>
+        <p>{{post.excerpt}}</p>
     </li>
 {% endfor %}
     {% endraw %}
 {% endhighlight %}
 
 > (En aquest cas concret el title de la pàgina equival a la categoria, doncs és el layout per les categories)
+
+Ordenar Array
+=============
+
+A la documentació només indica que hi ha un filtre que es diu *sort* el que no explica com i on utilitzar.
+
+{% highlight liquid linenos=table %}
+    {%raw%}
+{% assign sorted_pages = (site.pages | sort: 'title') %}
+{% for page in sorted_pages %}
+    {{page.title}} --> (sortiran les pàgines ordenades per títol)
+{% endfor %}
+    {% endraw %}
+{% endhighlight %}
