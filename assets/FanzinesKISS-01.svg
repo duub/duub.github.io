@@ -15,6 +15,16 @@
    version="1.1"
    inkscape:version="0.48.5 r10040"
    sodipodi:docname="Imposition.svg">
+   <style type="text/css"><![CDATA[
+       @font-face {
+           font-family: 'GNUtypewriter';
+           src:
+               local('GNUTypewriter'),
+               url('gtw.otf');
+           font-weight: normal;
+           font-style: normal;
+       }
+]]></style>
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -97,7 +107,7 @@
          id="tspan3108"
          x="124.56178"
          y="823.30383"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:GNUTypewriter;-inkscape-font-specification:GNUTypewriter">1</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:GNUTypewriter,Monospace;-inkscape-font-specification:GNUTypewriter,Monospace">1</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40.80178452px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -109,7 +119,7 @@
          id="tspan3112"
          x="127.65298"
          y="997.48297"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:GNUTypewriter;-inkscape-font-specification:GNUTypewriter">2</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:GNUTypewriter,Monospace;-inkscape-font-specification:GNUTypewriter,Monospace">2</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40.80178452px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -121,10 +131,10 @@
          id="tspan3116"
          x="184.32501"
          y="820.21265"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:GNUTypewriter;-inkscape-font-specification:GNUTypewriter">3</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:GNUTypewriter,Monospace;-inkscape-font-specification:GNUTypewriter,Monospace">3</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40.80178452px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GNUTypewriter;-inkscape-font-specification:GNUTypewriter"
+       style="font-size:40.80178452px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GNUTypewriter,Monospace;-inkscape-font-specification:GNUTypewriter,Monospace"
        x="184.28362"
        y="1003.1501"
        id="text3118"
