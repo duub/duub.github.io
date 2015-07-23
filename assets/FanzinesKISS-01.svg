@@ -20,7 +20,7 @@
            font-family: 'GNUtypewriter';
            src:
                local('GNUTypewriter'),
-               url('gtw.otf');
+               url('/assets/gtw.otf');
            font-weight: normal;
            font-style: normal;
        }
