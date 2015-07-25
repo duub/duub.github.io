@@ -68,7 +68,7 @@ Així el tag que cal utilitzar és el de *object*, de forma opcional, si es vol 
 
 Tot i així aquesta solució té detalls que estaria bé polir:
 
-* Si s'afegeix la imatge alternativa (fallout) si el navegador pot carregar l'svg, carregarà igualment l'altra imatge, pel que no serà del tot eficient.
+* Si s'afegeix la imatge alternativa (fallback) si el navegador pot carregar l'svg, carregarà igualment l'altra imatge, pel que no serà del tot eficient.
 * Un altre problema que he trobat és que, com a mínim fins la versió 4.4.4 d'android el renderitzat tampóc no és correcte, el text queda desplaçat del lloc on hauria d'estar. A partir de la versió 5 ja queda resolt.
 * Per a que la imatge reaccioni segons els canvis de pantalla i sigui *responsive* caldrà fer algunes modificacions al codi.
 
