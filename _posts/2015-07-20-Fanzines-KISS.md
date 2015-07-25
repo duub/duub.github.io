@@ -4,7 +4,7 @@ categories: Apunts
 title: Fanzines (Imposició de pàgines)
 ---
 
-Aquest és el primer pas per a imprimir fanzines KISS ([Keep It Simple Stupid](https://ca.wikipedia.org/wiki/Principi_KISS)).
+Aquest és el primer pas per a imprimir fanzines de manera KISS ([Keep It Simple Stupid](https://ca.wikipedia.org/wiki/Principi_KISS)).
 
 El format del fanzine resultant és un llibret de pàgines doblegades per la meitat. Si el document té més de 40 pàgines (10 fulls), caldria fer grups de quaderns per després acabar-los unint en un sol volum, això no s'explica en aquest artícle.
 
@@ -39,7 +39,7 @@ Manualment
 Aquesta imatge mostra com quedaria la imposició d'un document de 8 pàgines:
 
 {: .img-center}
-![Imposició de 8 pàgines en A4](/assets/FanzinesKISS-01.svg)
+![Imposició de 8 pàgines en A4](/assets/FanzinesKISS-01.png)
 
 L'ordre de les pàgines respecte el document original hauria de ser:
 
@@ -51,12 +51,12 @@ Per saber l'ordre d'un document amb qualsevol nombre de pàgines (**sempre múlt
 1.S'escriu el número de pàgines en dues columnes en l'ordre indicat per les fletxes:
 
 {: .img-center}
-![Escriure número de pàgines](/assets/FanzinesKISS-03.svg)
+![Escriure número de pàgines](/assets/FanzinesKISS-03.png)
 
 2.Començant des de l'última pàgina es passa per cada número fent aquest recorregut:
 
 {: .img-center}
-![recorregut per definir l'ordre](/assets/FanzinesKISS-04.svg)
+![recorregut per definir l'ordre](/assets/FanzinesKISS-04.png)
 
 3.L'ordre final:
 

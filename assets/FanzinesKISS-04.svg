@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="FanzinesKISS-04.svg">
+   sodipodi:docname="FanzinesKISS-04.svg"
+   inkscape:export-filename="/home/duub/Development/duub.org/assets/FanzinesKISS-04.png"
+   inkscape:export-xdpi="56.25"
+   inkscape:export-ydpi="56.25">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -55,7 +58,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -120,25 +123,25 @@
        sodipodi:nodetypes="cccccccccc" />
     <path
        style="fill:#28e825;fill-opacity:1;stroke:#12ae12;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 594.693,1010.166 -3.5625,-0.9376 5,-9.3437 -24.40625,2.0312 0,-7.09372 24.40625,2.03125 -5,-9.34371 3.5625,-0.9375 6.3125,11.79688 z"
+       d="m 608.693,1010.166 -3.5625,-0.9376 5,-9.3437 -24.40625,2.0312 0,-7.09372 24.40625,2.03125 -5,-9.34371 3.5625,-0.9375 6.3125,11.79688 z"
        id="path3138-4-4-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
     <path
        style="fill:#28e825;fill-opacity:1;stroke:#12ae12;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 630.15913,944.03413 0.93759,3.5625 9.3437,-5 -2.0312,24.40625 7.09372,0 -2.03125,-24.40625 9.34371,5 0.9375,-3.5625 -11.79688,-6.3125 z"
+       d="m 650.15913,944.03413 0.93759,3.5625 9.3437,-5 -2.0312,24.40625 7.09372,0 -2.03125,-24.40625 9.34371,5 0.9375,-3.5625 -11.79688,-6.3125 z"
        id="path3138-4-4-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
     <path
        style="fill:#28e825;fill-opacity:1;stroke:#12ae12;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 728.53284,960.69038 -0.93753,-3.5625 -9.34375,5 2.03125,-24.40625 -7.09375,0 2.03125,24.40625 -9.34371,-5 -0.9375,3.5625 11.79683,6.3125 z"
+       d="m 748.53284,960.69038 -0.93753,-3.5625 -9.34375,5 2.03125,-24.40625 -7.09375,0 2.03125,24.40625 -9.34371,-5 -0.9375,3.5625 11.79683,6.3125 z"
        id="path3138-4-4-00"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
     <path
        style="fill:#28e825;fill-opacity:1;stroke:#12ae12;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 684.16282,914.16239 -3.5625,-0.93753 5,-9.34375 -24.40625,2.03125 0,-7.09375 24.40625,2.03125 -5,-9.34371 3.5625,-0.9375 6.3125,11.79683 z"
+       d="m 704.16282,914.16239 -3.5625,-0.93753 5,-9.34375 -24.40625,2.03125 0,-7.09375 24.40625,2.03125 -5,-9.34371 3.5625,-0.9375 6.3125,11.79683 z"
        id="path3138-4-4-03"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
@@ -159,17 +162,17 @@
          id="tspan4120"
          x="29.218437"
          y="914.04224"
-         style="-inkscape-font-specification:Monospace;font-family:Monospace;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"> 1   2   3   4   5   6   7  8</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:GNUTypewriter;-inkscape-font-specification:GNUTypewriter"> 1   2   3   4   5   6   7  8</tspan><tspan
          sodipodi:role="line"
          x="29.218437"
          y="964.04224"
          id="tspan4122"
-         style="-inkscape-font-specification:Monospace;font-family:Monospace;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal" /><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:GNUTypewriter;-inkscape-font-specification:GNUTypewriter" /><tspan
          sodipodi:role="line"
          x="29.218437"
          y="1014.0422"
          id="tspan4124"
-         style="-inkscape-font-specification:Monospace;font-family:Monospace;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">16  15  14  13  12  11  10  9</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:GNUTypewriter;-inkscape-font-specification:GNUTypewriter">16  15  14  13  12  11  10  9</tspan></text>
     <path
        style="fill:#28e825;fill-opacity:1;stroke:#12ae12;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 79.796871,944.03413 -0.9375,3.5625 -9.34375,-5 2.03125,24.40624 -7.09378,0 2.0313,-24.40624 -9.34366,5 -0.9376,-3.5625 11.79686,-6.3125 z"
