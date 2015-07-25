@@ -39,7 +39,7 @@ Manualment
 Aquesta imatge mostra com quedaria la imposició d'un document de 8 pàgines:
 
 {: .img-center}
-![Imposició de 8 pàgines en A4](/assets/FanzinesKISS-01.png)
+<object data="/assets/FanzinesKISS-01.svg" type="image/svg+xml"></object>
 
 L'ordre de les pàgines respecte el document original hauria de ser:
 
@@ -50,13 +50,13 @@ Per saber l'ordre d'un document amb qualsevol nombre de pàgines (**sempre múlt
 
 1.S'escriu el número de pàgines en dues columnes en l'ordre indicat per les fletxes:
 
-{: .img-center}
-![Escriure número de pàgines](/assets/FanzinesKISS-03.png)
+
+<object data="/assets/FanzinesKISS-03.svg" type="image/svg+xml"></object>
 
 2.Començant des de l'última pàgina es passa per cada número fent aquest recorregut:
 
 {: .img-center}
-![recorregut per definir l'ordre](/assets/FanzinesKISS-04.png)
+<object data="/assets/FanzinesKISS-04.svg" type="image/svg+xml"></object>
 
 3.L'ordre final:
 

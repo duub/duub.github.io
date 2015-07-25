@@ -1,0 +1,27 @@
+<svg width="500px" height="150px" viewBox="0 0 501 152"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+     <defs>
+       <style type="text/css">
+         <![CDATA[
+         @font-face {
+             font-family: 'GNUtypewriter';
+             src: url('/assets/gtw.otf');
+             font-weight: normal;
+             font-style: normal;
+         }
+         ]]>
+      </style>
+     </defs>
+      <desc>Exemple de text</desc>
+      <text x="20" y="50"
+            font-family="GNUtypewriter" font-size="30" fill="blue" >
+        Voldria escriure amb la
+      </text>
+      <text x="20" y="110"
+            font-family="GNUtypewriter" font-size="30" fill="blue" >
+        tipografia GNUtypewriter
+      </text>
+      <!-- Show outline of canvas using 'rect' element -->
+      <rect x="1" y="1" width="500px" height="150px"
+            fill="none" stroke="blue" stroke-width="2" />
+</svg>

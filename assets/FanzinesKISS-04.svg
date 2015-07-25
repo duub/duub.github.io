@@ -14,10 +14,19 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="FanzinesKISS-04.svg"
-   inkscape:export-filename="/home/duub/Development/duub.org/assets/FanzinesKISS-04.png"
-   inkscape:export-xdpi="56.25"
-   inkscape:export-ydpi="56.25">
+   sodipodi:docname="FanzinesKISS-04.svg">
+   <style
+      type="text/css"
+      id="style3">
+        @font-face {
+            font-family: 'GNUtypewriter';
+            src:
+                local('GNUTypewriter'),
+                url('/assets/gtw.otf');
+            font-weight: normal;
+            font-style: normal;
+        }
+ </style>
   <defs
      id="defs4" />
   <sodipodi:namedview
