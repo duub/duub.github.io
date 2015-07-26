@@ -8,7 +8,7 @@ El format SVG serveix per crear gràfics vectorials i tot i que no és dels form
 
 Com per exemple que al renderitzr les imatges a través d'un llenguatge permet escalar la imatge sense perdre qualitat i si la imatge és poc complexa, també fa que sigui no ocupi gaire espai en disc.
 
-Una de les coses per les que ho volia utilitzar era per fer les imatges del post anterior ([Fanzines](/2015/07/20/Fanzines-KISS))
+Una de les coses per les que ho volia utilitzar era per fer les imatges del post anterior ([Fanzines]({%post_url 2015-07-20-Fanzines-KISS %}))
 
 El problema que m'he trobat és que no aconseguia que renderitzés bé el text, doncs no agafava bé la tipografia.
 
