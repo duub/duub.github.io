@@ -4,6 +4,8 @@ categories: Receptes
 title: Melmelada de figues
 ---
 
+Recepta super fàcil i riquíssima per fer melmelada!
+
 Ingredients
 ===========
 
