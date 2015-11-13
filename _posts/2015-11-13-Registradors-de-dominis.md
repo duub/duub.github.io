@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: Internet chapus
+categories: Internet
 title: Registradors de dominis i hosting
 ---
 
