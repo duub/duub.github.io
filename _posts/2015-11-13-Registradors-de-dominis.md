@@ -22,4 +22,7 @@ Tot i que amb dominis té preus competitius, hi ha un parell de coses que fan qu
 
 - En la gestió de dominis, han capat la redirecció del subdomini www cap al domini i t'obliguen a fer una redirecció des del fitxer htaccess.
 
-chao chao dinahosting
+Active24
+========
+
+He iniciat el procés de traslladar un domini a aquest registrador, per una banda el trasllat per un any és gratuït, cosa que mola molt, per l'altre, el web per fer la gestió és un seguit de desastres en la implementació, barreja idiomes segons la pantalla, la de login està en norueg, la de gestió en castellà i la info la pots trobar en català... i la cosa que més preocupa és que el contingut del site d'administració no s'acaba de mostrar bé, i no em preocupa pel fet de que quedi lleig, sinó perquè si són tant xapuces per publicar això... com ho seran en quan a seguretat... primer i últim domini que hi trasllado.
