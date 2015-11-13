@@ -16,12 +16,14 @@ Aquest lloc web funciona amb jekyll i per poder publicar nous artícles cal fer 
 * Després del pas anterior amb la configuració que ting s'hauria de copiar els fitxers del site resultant a la carpeta on hi ha el repo del site, sinó és així, cal copiar els fitxers generats.
 * A la carpeta del repo del site commitejar els canvis:
 
-```
-  $ git status
-  $ git add ...
-  $ git commit -m "lelele"
-  $ git push origin master
-```
+{% highlight liquid %}
+    {% raw %}
+$ git status
+$ git add ...
+$ git commit -m "lelele"
+$ git push origin master
+    {% endraw %}
+{% endhighlight %}
 
 * Desplegar el repo al servidor web:
 
