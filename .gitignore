@@ -2,3 +2,4 @@ _site
 .sass-cache
 diumenge19
 llibres/
+deploy-site.sh
