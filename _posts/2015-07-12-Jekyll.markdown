@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Apunts de Jekyll"
-categories: apunts
+categories: Apunts
 tags: jekyll
 ---
 Alguns detalls que m'he trobat poc documentats de jekyll i que m'han fet perdre alguna estona.

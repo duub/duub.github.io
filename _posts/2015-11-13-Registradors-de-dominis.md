@@ -1,8 +1,17 @@
 ---
 layout: post
-categories: Internet, chapus
-title: Registradors de dominis baratos
+categories: Internet chapus
+title: Registradors de dominis i hosting
 ---
+
+Compartint les diferents experiències amb els diferents registradors de dominis.
+
+Gandi
+=====
+
+Pel que fa als dominis .cat són molt més cars (ara estan sobre els 30€ respecte als 20€ de la resta) la resta de dominis tenen preus acceptables i més tinguen en compte que inclouen amb el registre del domini diversos serveis complementaris molt útils com són: un blog o un site, bústies de correu, DNS...
+
+És el proveïdor principal que tinc i amb el que em sento més a gust de treballar doncs donen suport a diversos projectes de programari lliure i a campanyes per a mantenir les llibertats d'internet com la de preservar la neutralitat de la xarxa.
 
 Dinahosting
 ===========

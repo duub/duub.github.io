@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: sentències
+categories: Sentències
 ---
 Una definició de què és el temps
 
